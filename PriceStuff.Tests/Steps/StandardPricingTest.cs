@@ -1,7 +1,7 @@
 using PriceStuff.Steps;
 using Xunit;
 
-namespace PriceStuff.Tests
+namespace PriceStuff.Tests.Steps
 {
     public class StandardPricingTest
     {

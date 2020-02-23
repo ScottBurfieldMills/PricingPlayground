@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Xunit;
 
-namespace PriceStuff.Tests.Steps
+namespace PriceStuff.Tests
 {
     public class PricingServiceTest
     {

@@ -4,7 +4,7 @@
     {
         public decimal Calculate(Option option, decimal currentPrice)
         {
-            return currentPrice + (currentPrice * (decimal) 0.15);
+            return currentPrice + currentPrice * (decimal) 0.15;
         }
     }
 }
