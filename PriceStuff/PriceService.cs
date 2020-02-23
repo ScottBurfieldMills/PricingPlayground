@@ -26,12 +26,14 @@ namespace PriceStuff
 
         public decimal GetPrice(Option option)
         {
-            var price = 999999M;
+            var price = 0M;
 
             foreach (var step in _steps)
             {
                 price = step.Calculate(option, price);
             }
+            
+            // TODO Handle bad prices
 
             return price;
         }
