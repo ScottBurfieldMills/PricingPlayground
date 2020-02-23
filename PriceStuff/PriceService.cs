@@ -6,7 +6,6 @@ namespace PriceStuff
     {
         public decimal? SalePrice { get; set; }
         public decimal? SpecialPrice { get; set; }
-
         public decimal? ListPrice { get; set; }
     }
 
@@ -34,7 +33,6 @@ namespace PriceStuff
             }
             
             // TODO Handle bad prices
-
             return price;
         }
     }
