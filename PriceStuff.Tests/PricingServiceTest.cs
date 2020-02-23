@@ -10,7 +10,7 @@ namespace PriceStuff.Tests
         {
             var priceService = new PriceService(new List<IPriceStep>
             {
-                // Test that the steps are running to isolate the test
+                // Mock that the steps are running to isolate the test
                 // to ONLY the PricingService
                 new MockStepOne(),
                 new MockStepTwo()
